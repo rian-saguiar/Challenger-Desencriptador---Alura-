@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto - Alura Challenges Oracle One</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+         <img class="logoAlura" src="/imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section>
+            
+            <textarea class="text-area" rows="4" cols="41" placeholder="Digite seu texto"></textarea>
+
+            <div class="aviso">
+               
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                
+                <button class="btn-criptografar" onclick="btnEncriptar()">Criptografar</button>
+
+                <button class="btn-descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+
+            </div>
+        </section>
+
+        <section>
+
+            <textarea class="mensagem" rows="10" cols="20" readonly></textarea>
+
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
